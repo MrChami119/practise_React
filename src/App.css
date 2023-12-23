@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: yellow;
+  display : flex;
+  align-items: center;
+  justify-content:center;
+}
+
+h1{
+  color : blue; 
+}
+
+.TodoWrapper{
+  background: orange;
+  border-color: red;
+}
+
+.todo-input{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 0.3rem;
+}
+
+.todo-btn{
+  background: rgb(226, 110, 226);
+  border-radius: 1rem;
+  color:brown;
+  margin-right: 1rem;
+}
