@@ -1,33 +1,50 @@
-.App {
+.App{
+  background: skyblue;
   text-align: center;
 }
 
-body{
-  background: yellow;
-  display : flex;
+.navbar{
+  color:blue;
+  margin: 10px;
+  text-align: left;
+  border: 1px;
+  border-color: blue;
+}
+
+.leftside{
+  display:flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 2px;
+  color: blue;
+}
+
+.input{
+  color: azure;
+  justify-content: center;
+}
+
+.wrapper{
+  background: rgb(139, 144, 238);
+}
+
+.form{
+  justify-content: center;
   align-items: center;
-  justify-content:center;
+  margin: 2px;
+  padding: 2px;
+  background: none;
+  border-style: double;
 }
 
-h1{
-  color : blue; 
+.input{
+  margin: 2px;
+  padding: 2px;
 }
 
-.TodoWrapper{
-  background: orange;
-  border-color: red;
-}
-
-.todo-input{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 0.3rem;
-}
-
-.todo-btn{
-  background: rgb(226, 110, 226);
-  border-radius: 1rem;
-  color:brown;
-  margin-right: 1rem;
+.btn{
+  margin: 5px;
+  padding: 5px;
+  color: blue;
+  background-color: azure;
 }

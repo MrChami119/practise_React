@@ -1,9 +1,13 @@
+
 import './App.css';
-import { TodoWrapper } from './components/TodoWrapper';
+import Navbar from './components/Navbar';
+import Middle from './components/Middle';
+
 function App() {
   return (
     <div className="App">
-      <TodoWrapper />
+       <Navbar />
+       <Middle />
     </div>
   );
 }
